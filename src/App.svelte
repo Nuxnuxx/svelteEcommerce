@@ -8,7 +8,7 @@
   import Footer from './Components/Footer.svelte'
   import Register from './Pages/Register.svelte'
 
-	import './styles.css';
+  import './styles.css'
 
   export let url = ''
 </script>
