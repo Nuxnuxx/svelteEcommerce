@@ -12,10 +12,10 @@
       <h3>Follow Us</h3>
       <p>Stay connected on social media.</p>
       <ul class="social-icons">
-        <li><a href="#"><img src="facebook-icon.png" alt="Facebook" /></a></li>
-        <li><a href="#"><img src="twitter-icon.png" alt="Twitter" /></a></li>
+        <li><a href="#"><img src="" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="" alt="Twitter" /></a></li>
         <li>
-          <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="" alt="Instagram" /></a>
         </li>
       </ul>
     </div>
