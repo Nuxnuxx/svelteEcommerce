@@ -13,5 +13,6 @@
   .container {
     display: grid;
     grid-template-columns: 20% 80%;
+		width: 100%;
   }
 </style>

@@ -23,7 +23,7 @@
 <style>
   .products {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     text-align: center;
     align-content: center;
