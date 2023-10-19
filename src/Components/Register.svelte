@@ -6,11 +6,9 @@
   let firstName = ''
   let lastName = ''
 
-  const handlerSubmit = (e) => {
+  const handlerSubmit = async (e) => {
     try {
-      axios.post('https://fakestoreapi.com/users', {
-        body: JSON.stringify({
-          email: email,
+      const response = await axios.post('https://fakestoreapi.com/users', {
           username: username,
           password: password,
           name: {
@@ -28,8 +26,8 @@
             },
           },
           phone: '1-570-236-7033',
-        }),
       })
+      console.log(response)
     } catch (e) {
       throw new Error(e)
     }

@@ -12,10 +12,10 @@
       <h3>Follow Us</h3>
       <p>Stay connected on social media.</p>
       <ul class="social-icons">
-        <li><a href="/#"><img src="" alt="Facebook" /></a></li>
-        <li><a href="/#"><img src="" alt="Twitter" /></a></li>
+        <li><a href="/#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook" /></a></li>
+        <li><a href="/#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/584px-Logo_of_Twitter.svg.png" alt="Twitter" /></a></li>
         <li>
-          <a href="/#"><img src="" alt="Instagram" /></a>
+          <a href="/#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" /></a>
         </li>
       </ul>
     </div>
@@ -64,5 +64,9 @@
   .social-icons a {
     text-decoration: none;
     color: #fff;
+  }
+
+  .social-icons img {
+    width: 40px;
   }
 </style>

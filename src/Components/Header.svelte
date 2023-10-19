@@ -8,7 +8,7 @@
     <Link to="/about">About</Link>
     <Link to="/shop">Shop</Link>
     <Link to="/cart">Cart</Link>
-    <Link to="/register">Register / Login</Link>
+    <Link to="/auth">Register / Login</Link>
   </nav>
 </header>
 

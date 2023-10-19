@@ -1,6 +1,6 @@
 <script>
   import Login from '../Components/Login.svelte'
-  import Register from './Register.svelte'
+  import Register from '../Components/Register.svelte'
   let bool = true
 </script>
 
