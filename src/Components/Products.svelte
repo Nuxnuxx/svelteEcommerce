@@ -13,7 +13,7 @@
     }
   })
 </script>
-
+	
 <div class="products">
   {#each $apiData as product}
     <Product {product} />

@@ -6,9 +6,9 @@
   import Shop from './Pages/Shop.svelte'
   import Cart from './Pages/Cart.svelte'
   import Footer from './Components/Footer.svelte'
-  import Register from './Pages/Register.svelte'
 
   import './styles.css'
+  import Auth from './Pages/Auth.svelte'
 
   export let url = ''
 </script>
@@ -20,7 +20,7 @@
     <Route path="/about" component="{About}"></Route>
     <Route path="/shop" component="{Shop}"></Route>
     <Route path="/cart" component="{Cart}"></Route>
-    <Route path="/register" component="{Register}"></Route>
+    <Route path="/auth" component="{Auth}"></Route>
   </div>
   <Footer />
 </Router>
